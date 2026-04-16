@@ -1,0 +1,578 @@
+{
+    "gui_light": "side",
+    "display": {
+        "gui": {
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.625,
+                0.625,
+                0.625
+            ]
+        },
+        "ground": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                3,
+                0
+            ],
+            "scale": [
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "on_shelf": {
+            "rotation": [
+                0,
+                180,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [
+                75,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.375,
+                0.375,
+                0.375
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        }
+    },
+    "elements": [
+        {
+            "from": [
+                2,
+                14,
+                2
+            ],
+            "to": [
+                14,
+                16,
+                14
+            ],
+            "faces": {
+                "up": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "up"
+                },
+                "north": {
+                    "uv": [
+                        2,
+                        0,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "up"
+                },
+                "south": {
+                    "uv": [
+                        2,
+                        0,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "up"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        0,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "up"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        0,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "up"
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                2,
+                2
+            ],
+            "to": [
+                2,
+                14,
+                14
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        16,
+                        14,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "west"
+                },
+                "up": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "west"
+                },
+                "north": {
+                    "uv": [
+                        14,
+                        2,
+                        16,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "west"
+                },
+                "south": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "west"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "west"
+                }
+            }
+        },
+        {
+            "from": [
+                2,
+                2,
+                0
+            ],
+            "to": [
+                14,
+                14,
+                2
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        14,
+                        2,
+                        2,
+                        0
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "north"
+                },
+                "up": {
+                    "uv": [
+                        2,
+                        0,
+                        14,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "north"
+                },
+                "north": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "north"
+                },
+                "west": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "north"
+                },
+                "east": {
+                    "uv": [
+                        14,
+                        2,
+                        16,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "north"
+                }
+            }
+        },
+        {
+            "from": [
+                2,
+                2,
+                14
+            ],
+            "to": [
+                14,
+                14,
+                16
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        14,
+                        16,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "south"
+                },
+                "up": {
+                    "uv": [
+                        2,
+                        14,
+                        14,
+                        16
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "south"
+                },
+                "south": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "south"
+                },
+                "west": {
+                    "uv": [
+                        14,
+                        2,
+                        16,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "south"
+                },
+                "east": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "south"
+                }
+            }
+        },
+        {
+            "from": [
+                14,
+                2,
+                2
+            ],
+            "to": [
+                16,
+                14,
+                14
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        2,
+                        14,
+                        0,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "east"
+                },
+                "up": {
+                    "uv": [
+                        14,
+                        2,
+                        16,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "east"
+                },
+                "north": {
+                    "uv": [
+                        0,
+                        2,
+                        2,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "east"
+                },
+                "south": {
+                    "uv": [
+                        14,
+                        2,
+                        16,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "east"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "east"
+                }
+            }
+        },
+        {
+            "from": [
+                2,
+                0,
+                2
+            ],
+            "to": [
+                14,
+                2,
+                14
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        14,
+                        14,
+                        2,
+                        2
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "down"
+                },
+                "north": {
+                    "uv": [
+                        2,
+                        14,
+                        14,
+                        16
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "down"
+                },
+                "south": {
+                    "uv": [
+                        2,
+                        14,
+                        14,
+                        16
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "down"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        14,
+                        14,
+                        16
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "down"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        14,
+                        14,
+                        16
+                    ],
+                    "texture": "chorus_plant",
+                    "cullface": "down"
+                }
+            }
+        },
+        {
+            "from": [
+                2,
+                2,
+                2
+            ],
+            "to": [
+                14,
+                14,
+                14
+            ],
+            "faces": {
+                "down": {
+                    "uv": [
+                        14,
+                        14,
+                        2,
+                        2
+                    ],
+                    "texture": "chorus_plant"
+                },
+                "up": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant"
+                },
+                "north": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant"
+                },
+                "south": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant"
+                },
+                "west": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant"
+                },
+                "east": {
+                    "uv": [
+                        2,
+                        2,
+                        14,
+                        14
+                    ],
+                    "texture": "chorus_plant"
+                }
+            }
+        }
+    ]
+}

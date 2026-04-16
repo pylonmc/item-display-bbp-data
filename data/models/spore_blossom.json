@@ -1,0 +1,335 @@
+{
+    "gui_light": "side",
+    "display": {
+        "gui": {
+            "rotation": [
+                30,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.625,
+                0.625,
+                0.625
+            ]
+        },
+        "ground": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                3,
+                0
+            ],
+            "scale": [
+                0.25,
+                0.25,
+                0.25
+            ]
+        },
+        "fixed": {
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.5,
+                0.5,
+                0.5
+            ]
+        },
+        "on_shelf": {
+            "rotation": [
+                0,
+                180,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                1,
+                1,
+                1
+            ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [
+                75,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                2.5,
+                0
+            ],
+            "scale": [
+                0.375,
+                0.375,
+                0.375
+            ]
+        },
+        "firstperson_righthand": {
+            "rotation": [
+                0,
+                45,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [
+                0,
+                225,
+                0
+            ],
+            "translation": [
+                0,
+                0,
+                0
+            ],
+            "scale": [
+                0.4,
+                0.4,
+                0.4
+            ]
+        }
+    },
+    "elements": [
+        {
+            "from": [
+                1,
+                15.9,
+                1
+            ],
+            "to": [
+                15,
+                15.9,
+                15
+            ],
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [
+                        1,
+                        1,
+                        15,
+                        15
+                    ],
+                    "texture": "spore_blossom_base"
+                },
+                "down": {
+                    "uv": [
+                        1,
+                        1,
+                        15,
+                        15
+                    ],
+                    "texture": "spore_blossom_base"
+                }
+            }
+        },
+        {
+            "from": [
+                8,
+                15.7,
+                0
+            ],
+            "to": [
+                24,
+                15.7,
+                16
+            ],
+            "rotation": {
+                "origin": [
+                    8,
+                    16,
+                    0
+                ],
+                "axis": "z",
+                "angle": -22.5,
+                "rescale": false
+            },
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "spore_blossom",
+                    "rotation": 90
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        16,
+                        16,
+                        0
+                    ],
+                    "texture": "spore_blossom",
+                    "rotation": 270
+                }
+            }
+        },
+        {
+            "from": [
+                -8,
+                15.7,
+                0
+            ],
+            "to": [
+                8,
+                15.7,
+                16
+            ],
+            "rotation": {
+                "origin": [
+                    8,
+                    16,
+                    0
+                ],
+                "axis": "z",
+                "angle": 22.5,
+                "rescale": false
+            },
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "spore_blossom",
+                    "rotation": 270
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        16,
+                        16,
+                        0
+                    ],
+                    "texture": "spore_blossom",
+                    "rotation": 90
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                15.7,
+                8
+            ],
+            "to": [
+                16,
+                15.7,
+                24
+            ],
+            "rotation": {
+                "origin": [
+                    0,
+                    16,
+                    8
+                ],
+                "axis": "x",
+                "angle": 22.5,
+                "rescale": false
+            },
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [
+                        16,
+                        16,
+                        0,
+                        0
+                    ],
+                    "texture": "spore_blossom"
+                },
+                "down": {
+                    "uv": [
+                        16,
+                        0,
+                        0,
+                        16
+                    ],
+                    "texture": "spore_blossom"
+                }
+            }
+        },
+        {
+            "from": [
+                0,
+                15.7,
+                -8
+            ],
+            "to": [
+                16,
+                15.7,
+                8
+            ],
+            "rotation": {
+                "origin": [
+                    0,
+                    16,
+                    8
+                ],
+                "axis": "x",
+                "angle": -22.5,
+                "rescale": false
+            },
+            "shade": false,
+            "faces": {
+                "up": {
+                    "uv": [
+                        0,
+                        0,
+                        16,
+                        16
+                    ],
+                    "texture": "spore_blossom"
+                },
+                "down": {
+                    "uv": [
+                        0,
+                        16,
+                        16,
+                        0
+                    ],
+                    "texture": "spore_blossom"
+                }
+            }
+        }
+    ]
+}
