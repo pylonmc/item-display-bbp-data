@@ -42,7 +42,7 @@ for item_file in (assets_dir / "items").glob("*.json"):
             valid_item_models[item_file.stem] = model
 
 with open(data_dir / "items.json", "w") as f:
-    json.dump(valid_item_models, f, indent=4)
+    json.dump(valid_item_models, f)
 
 models_dir = data_dir / "models"
 models_dir.mkdir()
@@ -103,7 +103,7 @@ for model in valid_item_models.values():
         model_data = merge_parents(model_data)
         model_data = resolve_textures(model_data)
         with open(models_dir / f"{model}.json", "w") as f:
-            json.dump(model_data, f, indent=4)
+            json.dump(model_data, f)
     except Exception as e:
         print(f"Error processing model {model}: {e}")
 
